@@ -1,10 +1,10 @@
 import tkinter as tk
-from tkinter import ttk
+import ttkbootstrap as ttk
 from convert import convert_to_kilometer
 
 
 # window
-window = tk.Tk()
+window = ttk.Window(themename='superhero')
 window.title("Converter")
 window.geometry("800x600")
 
